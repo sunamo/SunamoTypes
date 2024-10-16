@@ -1,6 +1,5 @@
 global using SunamoTypes;
 global using SunamoTypes._sunamo.SunamoExceptions;
-global using SunamoTypes._sunamo.SunamoValues;
 global using System;
 global using System.Linq;
 global using System.Text;
