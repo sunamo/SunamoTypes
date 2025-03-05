@@ -1,10 +1,7 @@
 namespace SunamoTypes;
-using System.Collections;
-using System.Text;
 
 public class Types
 {
-
     public static readonly Type tObject = typeof(object);
     public static readonly Type tStringBuilder = typeof(StringBuilder);
     public static readonly Type tIEnumerable = typeof(IEnumerable);
