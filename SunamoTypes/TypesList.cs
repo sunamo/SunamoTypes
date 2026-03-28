@@ -1,9 +1,17 @@
 namespace SunamoTypes;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+/// <summary>
+/// Provides cached <see cref="Type"/> references for generic <see cref="List{T}"/> types.
+/// </summary>
 public class TypesList
 {
-    public static readonly Type tLong = typeof(List<long>);
-    public static readonly Type tString = typeof(List<string>);
+    /// <summary>
+    /// Cached type reference for <see cref="List{T}"/> of <see cref="long"/>.
+    /// </summary>
+    public static readonly Type LongType = typeof(List<long>);
+
+    /// <summary>
+    /// Cached type reference for <see cref="List{T}"/> of <see cref="string"/>.
+    /// </summary>
+    public static readonly Type StringType = typeof(List<string>);
 }

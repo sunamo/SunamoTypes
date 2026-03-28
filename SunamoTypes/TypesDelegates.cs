@@ -1,9 +1,17 @@
 namespace SunamoTypes;
 
-// EN: Variable names have been checked and replaced with self-descriptive names
-// CZ: Názvy proměnných byly zkontrolovány a nahrazeny samopopisnými názvy
+/// <summary>
+/// Provides cached <see cref="Type"/> references for delegate types.
+/// </summary>
 public class TypesDelegates
 {
-    public static readonly Type tAction = typeof(Action);
-    public static readonly Type tFuncTask = typeof(Func<Task>);
+    /// <summary>
+    /// Cached type reference for <see cref="Action"/>.
+    /// </summary>
+    public static readonly Type ActionType = typeof(Action);
+
+    /// <summary>
+    /// Cached type reference for <see cref="T:System.Func{System.Threading.Tasks.Task}"/>.
+    /// </summary>
+    public static readonly Type FuncTaskType = typeof(Func<Task>);
 }

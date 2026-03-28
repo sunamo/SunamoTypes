@@ -1,18 +1,18 @@
 # SunamoTypes
 
-Types of .NET classes (will be removed later)
+Provides cached `System.Type` references for common .NET types, delegate types, and generic list types.
 
 ## Overview
 
-SunamoTypes is part of the Sunamo package ecosystem, providing modular, platform-independent utilities for .NET development.
+SunamoTypes is part of the Sunamo package ecosystem, providing modular, platform-independent utilities for .NET development. It eliminates repeated `typeof()` calls by exposing pre-cached `Type` references.
 
 ## Main Components
 
 ### Key Classes
 
-- **Types**
-- **TypesDelegates**
-- **TypesList**
+- **Types** - Cached type references for primitive and basic .NET types (`int`, `string`, `DateTime`, `bool`, etc.)
+- **TypesDelegates** - Cached type references for delegate types (`Action`, `Func<Task>`)
+- **TypesList** - Cached type references for generic `List<T>` types (`List<long>`, `List<string>`)
 
 ## Installation
 
@@ -22,15 +22,14 @@ dotnet add package SunamoTypes
 
 ## Dependencies
 
-- **Microsoft.Extensions.Logging.Abstractions** (v9.0.3)
+- **Microsoft.Extensions.Logging.Abstractions** (v10.0.2)
 
 ## Package Information
 
 - **Package Name**: SunamoTypes
-- **Version**: 25.3.29.1
-- **Target Framework**: net9.0
+- **Target Frameworks**: net10.0, net9.0, net8.0
 - **Category**: Platform-Independent NuGet Package
-- **Source Files**: 3
+- **License**: MIT
 
 ## Related Packages
 
