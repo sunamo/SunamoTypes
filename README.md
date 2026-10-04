@@ -1,5 +1,10 @@
 # SunamoTypes
 
+## Short description
+
+Knihovna s cachovanými odkazy na System.Type pro běžné typy .NET, delegáty a generické seznamy. Součást sbírky pinp s testy a Runnerem.
+
+
 Provides cached `System.Type` references for common .NET types, delegate types, and generic list types.
 
 ## Overview
